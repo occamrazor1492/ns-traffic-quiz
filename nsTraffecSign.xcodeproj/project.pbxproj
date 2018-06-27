@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21E0C4BAF314DA763C837BC3 /* Pods_nsTraffecSign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21825433813529701640DC43 /* Pods_nsTraffecSign.framework */; };
+		31E4C6C6EC1228BCFC56CD67 /* Pods_nsTraffecSignTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C423609D8BBC924EF9733E /* Pods_nsTraffecSignTests.framework */; };
+		9EF09A163080B0FFFAFB6726 /* Pods_nsTraffecSignUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C347FEA31A88C4AA26EB60A /* Pods_nsTraffecSignUITests.framework */; };
+		EC0167B01F3D4C9300EC4A61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0167AF1F3D4C9300EC4A61 /* AppDelegate.swift */; };
+		EC0167B21F3D4C9300EC4A61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0167B11F3D4C9300EC4A61 /* ViewController.swift */; };
+		EC0167B51F3D4C9300EC4A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0167B31F3D4C9300EC4A61 /* Main.storyboard */; };
+		EC0167B71F3D4C9300EC4A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0167B61F3D4C9300EC4A61 /* Assets.xcassets */; };
+		EC0167BA1F3D4C9300EC4A61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0167B81F3D4C9300EC4A61 /* LaunchScreen.storyboard */; };
+		EC0167C51F3D4C9300EC4A61 /* nsTraffecSignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0167C41F3D4C9300EC4A61 /* nsTraffecSignTests.swift */; };
+		EC0167D01F3D4C9300EC4A61 /* nsTraffecSignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0167CF1F3D4C9300EC4A61 /* nsTraffecSignUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC0167C11F3D4C9300EC4A61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0167A41F3D4C9300EC4A61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC0167AB1F3D4C9300EC4A61;
+			remoteInfo = nsTraffecSign;
+		};
+		EC0167CC1F3D4C9300EC4A61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0167A41F3D4C9300EC4A61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC0167AB1F3D4C9300EC4A61;
+			remoteInfo = nsTraffecSign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C423609D8BBC924EF9733E /* Pods_nsTraffecSignTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nsTraffecSignTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B39C0F271950D4DF3A47397 /* Pods-nsTraffecSignUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nsTraffecSignUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nsTraffecSignUITests/Pods-nsTraffecSignUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21825433813529701640DC43 /* Pods_nsTraffecSign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nsTraffecSign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C347FEA31A88C4AA26EB60A /* Pods_nsTraffecSignUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nsTraffecSignUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6183F75AF919614B5CEE16B6 /* Pods-nsTraffecSignTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nsTraffecSignTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nsTraffecSignTests/Pods-nsTraffecSignTests.release.xcconfig"; sourceTree = "<group>"; };
+		648E99940E940068A91A4AC9 /* Pods-nsTraffecSignTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nsTraffecSignTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nsTraffecSignTests/Pods-nsTraffecSignTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EEA0EC01E5970AEFEC803EE /* Pods-nsTraffecSignUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nsTraffecSignUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nsTraffecSignUITests/Pods-nsTraffecSignUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB20BA5C291E7488C3BA3B3 /* Pods-nsTraffecSign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nsTraffecSign.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nsTraffecSign/Pods-nsTraffecSign.debug.xcconfig"; sourceTree = "<group>"; };
+		D9705D44AA9F8B479576F03E /* Pods-nsTraffecSign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nsTraffecSign.release.xcconfig"; path = "Pods/Target Support Files/Pods-nsTraffecSign/Pods-nsTraffecSign.release.xcconfig"; sourceTree = "<group>"; };
+		EC0167AC1F3D4C9300EC4A61 /* nsTraffecSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nsTraffecSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0167AF1F3D4C9300EC4A61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC0167B11F3D4C9300EC4A61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC0167B41F3D4C9300EC4A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC0167B61F3D4C9300EC4A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC0167B91F3D4C9300EC4A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC0167BB1F3D4C9300EC4A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0167C01F3D4C9300EC4A61 /* nsTraffecSignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nsTraffecSignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0167C41F3D4C9300EC4A61 /* nsTraffecSignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nsTraffecSignTests.swift; sourceTree = "<group>"; };
+		EC0167C61F3D4C9300EC4A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0167CB1F3D4C9300EC4A61 /* nsTraffecSignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nsTraffecSignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0167CF1F3D4C9300EC4A61 /* nsTraffecSignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nsTraffecSignUITests.swift; sourceTree = "<group>"; };
+		EC0167D11F3D4C9300EC4A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC0167A91F3D4C9300EC4A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E0C4BAF314DA763C837BC3 /* Pods_nsTraffecSign.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0167BD1F3D4C9300EC4A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E4C6C6EC1228BCFC56CD67 /* Pods_nsTraffecSignTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0167C81F3D4C9300EC4A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EF09A163080B0FFFAFB6726 /* Pods_nsTraffecSignUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FB384DE76E7683FA3AA2ED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21825433813529701640DC43 /* Pods_nsTraffecSign.framework */,
+				04C423609D8BBC924EF9733E /* Pods_nsTraffecSignTests.framework */,
+				5C347FEA31A88C4AA26EB60A /* Pods_nsTraffecSignUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C10A6F8B4C4BA84B588FCC71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CB20BA5C291E7488C3BA3B3 /* Pods-nsTraffecSign.debug.xcconfig */,
+				D9705D44AA9F8B479576F03E /* Pods-nsTraffecSign.release.xcconfig */,
+				648E99940E940068A91A4AC9 /* Pods-nsTraffecSignTests.debug.xcconfig */,
+				6183F75AF919614B5CEE16B6 /* Pods-nsTraffecSignTests.release.xcconfig */,
+				6EEA0EC01E5970AEFEC803EE /* Pods-nsTraffecSignUITests.debug.xcconfig */,
+				1B39C0F271950D4DF3A47397 /* Pods-nsTraffecSignUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC0167A31F3D4C9300EC4A61 = {
+			isa = PBXGroup;
+			children = (
+				EC0167AE1F3D4C9300EC4A61 /* nsTraffecSign */,
+				EC0167C31F3D4C9300EC4A61 /* nsTraffecSignTests */,
+				EC0167CE1F3D4C9300EC4A61 /* nsTraffecSignUITests */,
+				EC0167AD1F3D4C9300EC4A61 /* Products */,
+				C10A6F8B4C4BA84B588FCC71 /* Pods */,
+				8FB384DE76E7683FA3AA2ED7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC0167AD1F3D4C9300EC4A61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC0167AC1F3D4C9300EC4A61 /* nsTraffecSign.app */,
+				EC0167C01F3D4C9300EC4A61 /* nsTraffecSignTests.xctest */,
+				EC0167CB1F3D4C9300EC4A61 /* nsTraffecSignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC0167AE1F3D4C9300EC4A61 /* nsTraffecSign */ = {
+			isa = PBXGroup;
+			children = (
+				EC0167DD1F3D4CEC00EC4A61 /* Controller */,
+				EC0167DE1F3D4CFF00EC4A61 /* View */,
+				EC0167E01F3D4E1900EC4A61 /* Supporint Files */,
+				EC0167DF1F3D4D0A00EC4A61 /* Model */,
+			);
+			path = nsTraffecSign;
+			sourceTree = "<group>";
+		};
+		EC0167C31F3D4C9300EC4A61 /* nsTraffecSignTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC0167C41F3D4C9300EC4A61 /* nsTraffecSignTests.swift */,
+				EC0167C61F3D4C9300EC4A61 /* Info.plist */,
+			);
+			path = nsTraffecSignTests;
+			sourceTree = "<group>";
+		};
+		EC0167CE1F3D4C9300EC4A61 /* nsTraffecSignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC0167CF1F3D4C9300EC4A61 /* nsTraffecSignUITests.swift */,
+				EC0167D11F3D4C9300EC4A61 /* Info.plist */,
+			);
+			path = nsTraffecSignUITests;
+			sourceTree = "<group>";
+		};
+		EC0167DD1F3D4CEC00EC4A61 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC0167B11F3D4C9300EC4A61 /* ViewController.swift */,
+				EC0167AF1F3D4C9300EC4A61 /* AppDelegate.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EC0167DE1F3D4CFF00EC4A61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC0167B61F3D4C9300EC4A61 /* Assets.xcassets */,
+				EC0167B31F3D4C9300EC4A61 /* Main.storyboard */,
+				EC0167B81F3D4C9300EC4A61 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EC0167DF1F3D4D0A00EC4A61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EC0167E01F3D4E1900EC4A61 /* Supporint Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC0167BB1F3D4C9300EC4A61 /* Info.plist */,
+			);
+			name = "Supporint Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC0167AB1F3D4C9300EC4A61 /* nsTraffecSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0167D41F3D4C9300EC4A61 /* Build configuration list for PBXNativeTarget "nsTraffecSign" */;
+			buildPhases = (
+				E9B966F76539B19CA98B6FC8 /* [CP] Check Pods Manifest.lock */,
+				EC0167A81F3D4C9300EC4A61 /* Sources */,
+				EC0167A91F3D4C9300EC4A61 /* Frameworks */,
+				EC0167AA1F3D4C9300EC4A61 /* Resources */,
+				99B5B4F273F77D2D9A058A15 /* [CP] Embed Pods Frameworks */,
+				11E9D001AD6484F3DC2E5D7F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nsTraffecSign;
+			productName = nsTraffecSign;
+			productReference = EC0167AC1F3D4C9300EC4A61 /* nsTraffecSign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC0167BF1F3D4C9300EC4A61 /* nsTraffecSignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0167D71F3D4C9300EC4A61 /* Build configuration list for PBXNativeTarget "nsTraffecSignTests" */;
+			buildPhases = (
+				A8926A8C1FF5B71419C48606 /* [CP] Check Pods Manifest.lock */,
+				EC0167BC1F3D4C9300EC4A61 /* Sources */,
+				EC0167BD1F3D4C9300EC4A61 /* Frameworks */,
+				EC0167BE1F3D4C9300EC4A61 /* Resources */,
+				47A66264785CC7D5B99EFC06 /* [CP] Embed Pods Frameworks */,
+				AA714154446CE3DA7BDDE244 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC0167C21F3D4C9300EC4A61 /* PBXTargetDependency */,
+			);
+			name = nsTraffecSignTests;
+			productName = nsTraffecSignTests;
+			productReference = EC0167C01F3D4C9300EC4A61 /* nsTraffecSignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC0167CA1F3D4C9300EC4A61 /* nsTraffecSignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0167DA1F3D4C9300EC4A61 /* Build configuration list for PBXNativeTarget "nsTraffecSignUITests" */;
+			buildPhases = (
+				4E1FCAD99DAC5426FA34071D /* [CP] Check Pods Manifest.lock */,
+				EC0167C71F3D4C9300EC4A61 /* Sources */,
+				EC0167C81F3D4C9300EC4A61 /* Frameworks */,
+				EC0167C91F3D4C9300EC4A61 /* Resources */,
+				96E6EC7419D09D39B2367C19 /* [CP] Embed Pods Frameworks */,
+				6095084B05F3D477C9398B32 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC0167CD1F3D4C9300EC4A61 /* PBXTargetDependency */,
+			);
+			name = nsTraffecSignUITests;
+			productName = nsTraffecSignUITests;
+			productReference = EC0167CB1F3D4C9300EC4A61 /* nsTraffecSignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC0167A41F3D4C9300EC4A61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ziyun zhong";
+				TargetAttributes = {
+					EC0167AB1F3D4C9300EC4A61 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LP4HMMLTLV;
+						ProvisioningStyle = Automatic;
+					};
+					EC0167BF1F3D4C9300EC4A61 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LP4HMMLTLV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC0167AB1F3D4C9300EC4A61;
+					};
+					EC0167CA1F3D4C9300EC4A61 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LP4HMMLTLV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC0167AB1F3D4C9300EC4A61;
+					};
+				};
+			};
+			buildConfigurationList = EC0167A71F3D4C9300EC4A61 /* Build configuration list for PBXProject "nsTraffecSign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC0167A31F3D4C9300EC4A61;
+			productRefGroup = EC0167AD1F3D4C9300EC4A61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC0167AB1F3D4C9300EC4A61 /* nsTraffecSign */,
+				EC0167BF1F3D4C9300EC4A61 /* nsTraffecSignTests */,
+				EC0167CA1F3D4C9300EC4A61 /* nsTraffecSignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC0167AA1F3D4C9300EC4A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0167BA1F3D4C9300EC4A61 /* LaunchScreen.storyboard in Resources */,
+				EC0167B71F3D4C9300EC4A61 /* Assets.xcassets in Resources */,
+				EC0167B51F3D4C9300EC4A61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0167BE1F3D4C9300EC4A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0167C91F3D4C9300EC4A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11E9D001AD6484F3DC2E5D7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nsTraffecSign/Pods-nsTraffecSign-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47A66264785CC7D5B99EFC06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nsTraffecSignTests/Pods-nsTraffecSignTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E1FCAD99DAC5426FA34071D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nsTraffecSignUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6095084B05F3D477C9398B32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nsTraffecSignUITests/Pods-nsTraffecSignUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96E6EC7419D09D39B2367C19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nsTraffecSignUITests/Pods-nsTraffecSignUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99B5B4F273F77D2D9A058A15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-nsTraffecSign/Pods-nsTraffecSign-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nsTraffecSign/Pods-nsTraffecSign-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8926A8C1FF5B71419C48606 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nsTraffecSignTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA714154446CE3DA7BDDE244 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nsTraffecSignTests/Pods-nsTraffecSignTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B966F76539B19CA98B6FC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nsTraffecSign-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC0167A81F3D4C9300EC4A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0167B21F3D4C9300EC4A61 /* ViewController.swift in Sources */,
+				EC0167B01F3D4C9300EC4A61 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0167BC1F3D4C9300EC4A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0167C51F3D4C9300EC4A61 /* nsTraffecSignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0167C71F3D4C9300EC4A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0167D01F3D4C9300EC4A61 /* nsTraffecSignUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC0167C21F3D4C9300EC4A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC0167AB1F3D4C9300EC4A61 /* nsTraffecSign */;
+			targetProxy = EC0167C11F3D4C9300EC4A61 /* PBXContainerItemProxy */;
+		};
+		EC0167CD1F3D4C9300EC4A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC0167AB1F3D4C9300EC4A61 /* nsTraffecSign */;
+			targetProxy = EC0167CC1F3D4C9300EC4A61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC0167B31F3D4C9300EC4A61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0167B41F3D4C9300EC4A61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC0167B81F3D4C9300EC4A61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0167B91F3D4C9300EC4A61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC0167D21F3D4C9300EC4A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC0167D31F3D4C9300EC4A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC0167D51F3D4C9300EC4A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB20BA5C291E7488C3BA3B3 /* Pods-nsTraffecSign.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LP4HMMLTLV;
+				INFOPLIST_FILE = nsTraffecSign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = A00393973.nsTraffecSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EC0167D61F3D4C9300EC4A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9705D44AA9F8B479576F03E /* Pods-nsTraffecSign.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LP4HMMLTLV;
+				INFOPLIST_FILE = nsTraffecSign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = A00393973.nsTraffecSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EC0167D81F3D4C9300EC4A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648E99940E940068A91A4AC9 /* Pods-nsTraffecSignTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LP4HMMLTLV;
+				INFOPLIST_FILE = nsTraffecSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = A00393973.nsTraffecSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nsTraffecSign.app/nsTraffecSign";
+			};
+			name = Debug;
+		};
+		EC0167D91F3D4C9300EC4A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6183F75AF919614B5CEE16B6 /* Pods-nsTraffecSignTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LP4HMMLTLV;
+				INFOPLIST_FILE = nsTraffecSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = A00393973.nsTraffecSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nsTraffecSign.app/nsTraffecSign";
+			};
+			name = Release;
+		};
+		EC0167DB1F3D4C9300EC4A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EEA0EC01E5970AEFEC803EE /* Pods-nsTraffecSignUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LP4HMMLTLV;
+				INFOPLIST_FILE = nsTraffecSignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = A00393973.nsTraffecSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = nsTraffecSign;
+			};
+			name = Debug;
+		};
+		EC0167DC1F3D4C9300EC4A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B39C0F271950D4DF3A47397 /* Pods-nsTraffecSignUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LP4HMMLTLV;
+				INFOPLIST_FILE = nsTraffecSignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = A00393973.nsTraffecSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = nsTraffecSign;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC0167A71F3D4C9300EC4A61 /* Build configuration list for PBXProject "nsTraffecSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0167D21F3D4C9300EC4A61 /* Debug */,
+				EC0167D31F3D4C9300EC4A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0167D41F3D4C9300EC4A61 /* Build configuration list for PBXNativeTarget "nsTraffecSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0167D51F3D4C9300EC4A61 /* Debug */,
+				EC0167D61F3D4C9300EC4A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC0167D71F3D4C9300EC4A61 /* Build configuration list for PBXNativeTarget "nsTraffecSignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0167D81F3D4C9300EC4A61 /* Debug */,
+				EC0167D91F3D4C9300EC4A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC0167DA1F3D4C9300EC4A61 /* Build configuration list for PBXNativeTarget "nsTraffecSignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0167DB1F3D4C9300EC4A61 /* Debug */,
+				EC0167DC1F3D4C9300EC4A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC0167A41F3D4C9300EC4A61 /* Project object */;
+}

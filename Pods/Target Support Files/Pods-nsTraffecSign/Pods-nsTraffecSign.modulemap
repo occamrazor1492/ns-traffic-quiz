@@ -1,0 +1,6 @@
+framework module Pods_nsTraffecSign {
+  umbrella header "Pods-nsTraffecSign-umbrella.h"
+
+  export *
+  module * { export * }
+}

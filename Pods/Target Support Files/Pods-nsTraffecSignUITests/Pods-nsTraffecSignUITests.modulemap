@@ -1,0 +1,6 @@
+framework module Pods_nsTraffecSignUITests {
+  umbrella header "Pods-nsTraffecSignUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
